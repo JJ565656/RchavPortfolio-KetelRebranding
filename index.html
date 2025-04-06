@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8">
+  <title>Personal Portfolio-Ketel One Project Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+     <style>
+    body{
+          background-color: #F5F1EA;
+          font-size: 16px;
+        }
+      
+      /**brand font guidelines**/      
+        
+        h1{
+          font-family: "Bitter", serif; 
+          font-size: 6.876em;
+          color: #3E3A39;
+          font-weight: 500;
+        }
+        
+         h2{
+          font-family: "Bitter", serif; 
+          font-size: 4.25em;
+          color: #3E3A39;
+        }
+        
+        h3{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 4.25em;
+          color: #3E3A39;
+        }
+        
+         h4{
+          font-family: "Bitter", serif; 
+          font-size: 2.625em;
+          font-style: italic;
+          font-weight: 400;
+          color: #3E3A39;
+        }
+        
+        h5{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 2.625em;
+          color: #3E3A39;
+        }
+        
+        h6{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 1.625em;
+          color: #3E3A39;
+          font-weight: 500;
+        }
+        
+        p{
+           font-family: "DM Sans", sans-serif; 
+          font-size: 1.3em;
+          color: #3E3A39;
+        }
+        
+  /**menu bar**/
+        .menu-bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 50px;
+        }
+        
+        .menu-bar img{
+          height: 75px;
+        }
+        
+        .nav-links {
+        display: flex;
+        gap: 30px;
+        }
+        
+        .nav-links a{
+          text-decoration: none;
+          color: #3E3A39;
+        }
+        
+        .nav-links a:hover {
+          color: #6A7E92;
+        }
+       
+         /**header**/
+       
+       .header{
+        padding: 50px 0px;
+        text-align: center;
+        padding-bottom: 200px;
+      }
+      
+      .header h1,
+      .header h6 {
+        margin: 0px;
+        padding: 30px 0px;
+      }
+       
+       .header h1{
+         padding-top: 75px;
+       }
+      
+      .header h6 {
+        color: #AB333E;
+        margin: 0px;
+        padding: 0px 190px;
+      }
+       
+       /**overview**/
+       
+       .ketel-overview-section {
+  background-color: #F5F1EA;
+  padding: 80px 0;
+}
+
+.ketel-overview-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.ketel-overview-text {
+  flex: 1;
+  padding: 60px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #AB333E; 
+}
+
+.ketel-overview-text h2,
+.ketel-overview-text h6,
+.ketel-overview-text p{
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.ketel-overview-text p {
+  padding-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.9;
+}
+
+.ketel-overview-image {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.ketel-overview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+       
+       .ketel-overview-text p:first-of-type {
+  font-size: 2em;
+  font-weight: 500;
+  font-style: italic; 
+  margin-bottom: 5px;
+}
+
+.ketel-overview-text h6 {
+  margin-top: 0;
+}
+
+
+    </style>
+    
+  </head>
+  
+  <body>
+  
+    <div class="menu-bar">
+        <a href="https://jj565656.github.io/RchavPortfolio-landing/"> 
+          <img src="RChav Logo New.png" alt="RChav full logomark in old ink"></a>
+        <div class="nav-links">
+        <h5><a href="https://jj565656.github.io/RchavPortfolio-about/">About</a></h5>
+        <h5><a href="https://jj565656.github.io/RchavPortfolio-projects/">Projects</a></h5>
+        <h5><a href="#contact">Contact</a></h5>
+    </div>   
+  </div>
+    
+     <div class="header">
+      <h1>Ketel One Rebranding</h1> 
+      <h6>Still heritage, just no longer stuck in grandpa’s liquor cabinet</h6>
+    </div>
+    
+    <section class="ketel-overview-section">
+  <div class="ketel-overview-container">
+    <div class="ketel-overview-text">
+      <h2>Ketel One Rebranding</h2>
+      <p>slogan and tagline</p>
+      <h6>"Savour the Legacy, Embrace the Thrill" <br> "Elevate Your Nights, Not Your Budget"</h6>
+      <p>A branding refresh that took Ketel One from dated to deliberate. The goal was to honor its roots while reshaping its presence for a newer, sleeker market — more intentional layout, more edge, less ornamental fluff. Think refined, not forgotten.</p>
+    </div>
+    <div class="ketel-overview-image">
+      <img src="OLDANDNEW.png" alt="Ketel One Rebrand Mockup">
+    </div>
+  </div>
+</section>
+
+  </body>
+</html>
