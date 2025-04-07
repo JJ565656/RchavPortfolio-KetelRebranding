@@ -115,8 +115,8 @@
        /**overview**/
        
        .ketel-overview-section {
-  background-color: #F5F1EA;
-  padding: 80px 0;
+   background-color: #F5F1EA;
+  padding: 80px 0 0 0;
 }
 
 .ketel-overview-container {
@@ -172,7 +172,99 @@
 .ketel-overview-text h6 {
   margin-top: 0;
 }
+       
+       .ketel-second-row {
+  padding: 0 0 100px 0;
+}
 
+.ketel-second-container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.ketel-second-image {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.ketel-second-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ketel-second-text {
+  flex: 1;
+  padding: 60px 100px;
+  display: flex;
+  align-items: center;
+
+}
+
+.ketel-second-text p {
+  line-height: 1.9;
+}
+
+.ketel-vertical-videos {
+  background-color: #F5F1EA;
+  padding: 100px 60px;
+}
+
+.video-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px; /* was 60px, now reduced */
+}
+
+
+.video-box {
+  border: 6px solid #AB333D;
+  padding: 10px;
+  background-color: #F5F1EA;
+  width: 300px;
+  aspect-ratio: 9 / 16; /* ensures portrait ratio */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+..ketel-horizontal-video {
+  background-color: #F5F1EA;
+  padding: 30px 60px 100px;
+}
+
+
+.horizontal-video-box {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 6px solid #AB333D;
+  padding: 10px;
+  background-color: #F5F1EA;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.horizontal-video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
     </style>
     
@@ -204,10 +296,72 @@
       <p>A branding refresh that took Ketel One from dated to deliberate. The goal was to honor its roots while reshaping its presence for a newer, sleeker market — more intentional layout, more edge, less ornamental fluff. Think refined, not forgotten.</p>
     </div>
     <div class="ketel-overview-image">
-      <img src="OLDANDNEW.png" alt="Ketel One Rebrand Mockup">
+      <img src="OLDANDNEW.png" alt="Ketel One Rebrand comparison">
     </div>
   </div>
 </section>
+    
+    <section class="ketel-second-row">
+  <div class="ketel-second-container">
+    <div class="ketel-second-image">
+      <img src="ORIGIN.png" alt="Ketel One brand strategy visual">
+    </div>
+    <div class="ketel-second-text">
+      <p>The goal? Make Ketel One feel less like your dad’s go-to and more like something you’d actually post about. The rebrand keeps the heritage but trades the stiffness for clarity, edge, and relevance — reshaping everything from packaging to digital presence so it speaks to a new generation without losing its roots.</p>
+    </div>
+  </div>
+</section>
+
+    <section class="ketel-vertical-videos">
+  <div class="video-grid">
+    
+    <div class="video-box">
+       <iframe 
+  src="https://youtube.com/embed/10GqS26L03o" 
+  title="Ketel One Portrait Video"
+  frameborder="0" 
+  allowfullscreen 
+  width="100%" 
+  height="100%">
+</iframe>
+    </div>
+    
+    <div class="video-box">
+      <iframe 
+  src="https://youtube.com/embed/fVUW6VkHqfc" 
+  title="Ketel One Portrait Video"
+  frameborder="0" 
+  allowfullscreen 
+  width="100%" 
+  height="100%">
+</iframe>
+    </div>
+    
+    <div class="video-box">
+      <iframe 
+  src="https://www.youtube.com/embed/NDCC7Xsw2tE" 
+  title="Ketel One Portrait Video"
+  frameborder="0" 
+  allowfullscreen 
+  width="100%" 
+  height="100%">
+</iframe>
+    </div>
+
+  </div>
+</section>
+    
+    <section class="ketel-horizontal-video">
+  <div class="horizontal-video-box">
+    <iframe 
+      src="https://www.youtube.com/embed/qamedaZ7gi4" 
+      title="Ketel One Horizontal Video"
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
 
   </body>
 </html>
