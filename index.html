@@ -152,15 +152,22 @@
 .ketel-overview-image {
   flex: 1;
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #F5F1EA; 
 }
+
 
 .ketel-overview-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; 
+  height: auto;
+  object-fit: contain;
   display: block;
+  padding: 40px; 
+  box-sizing: border-box;
 }
+
        
        .ketel-overview-text p:first-of-type {
   font-size: 2em;
@@ -219,7 +226,7 @@
   gap: 40px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 30px; /* was 60px, now reduced */
+  margin-bottom: 30px; 
 }
 
 
@@ -228,7 +235,7 @@
   padding: 10px;
   background-color: #F5F1EA;
   width: 300px;
-  aspect-ratio: 9 / 16; /* ensures portrait ratio */
+  aspect-ratio: 9 / 16; 
   display: flex;
   align-items: center;
   justify-content: center;
